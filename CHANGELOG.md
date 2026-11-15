@@ -1,5 +1,7 @@
 Score Hub changelog
 
+2026-11-15, v2026.11.15. Registered three more MobbyHill modes: Fuel, Climb and Climb Fuel. The climb modes post height in tenths of a meter and the hub shows them in meters.
+
 2026-11-14, v2026.11.14. Registered MobbyHill on the score hub. Its scores count checkpoints first and the time to reach them second, and the hub now shows those as flags and a clock time.
 
 2026-11-10, v2026.11.10. Registered Sky Flow on the score hub so its timed round scores show up there.
