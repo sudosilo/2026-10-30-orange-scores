@@ -10,5 +10,17 @@ module.exports = {
   mobbyhill: { name: 'MobbyHill', max: 99999999, perSecond: 60000, fmt: 'flagsTime' },
   'mobbyhill-fuel': { name: 'MobbyHill Fuel', max: 99999999, perSecond: 60000, fmt: 'flagsTime' },
   'mobbyhill-climb': { name: 'MobbyHill Climb', max: 999999, perSecond: 200, fmt: 'meters' },
-  'mobbyhill-climbfuel': { name: 'MobbyHill Climb Fuel', max: 999999, perSecond: 200, fmt: 'meters' }
+  'mobbyhill-climbfuel': { name: 'MobbyHill Climb Fuel', max: 999999, perSecond: 200, fmt: 'meters' },
+  'mobbyhill-forest': { name: 'MobbyHill Trail Forest', max: 99999999, perSecond: 60000, fmt: 'flagsTime' },
+  'mobbyhill-fuel-forest': { name: 'MobbyHill Fuel Forest', max: 99999999, perSecond: 60000, fmt: 'flagsTime' },
+  'mobbyhill-climb-forest': { name: 'MobbyHill Climb Forest', max: 999999, perSecond: 200, fmt: 'meters' },
+  'mobbyhill-climbfuel-forest': { name: 'MobbyHill Climb Fuel Forest', max: 999999, perSecond: 200, fmt: 'meters' },
+  'mobbyhill-canyon': { name: 'MobbyHill Trail Canyon', max: 99999999, perSecond: 60000, fmt: 'flagsTime' },
+  'mobbyhill-fuel-canyon': { name: 'MobbyHill Fuel Canyon', max: 99999999, perSecond: 60000, fmt: 'flagsTime' },
+  'mobbyhill-climb-canyon': { name: 'MobbyHill Climb Canyon', max: 999999, perSecond: 200, fmt: 'meters' },
+  'mobbyhill-climbfuel-canyon': { name: 'MobbyHill Climb Fuel Canyon', max: 999999, perSecond: 200, fmt: 'meters' },
+  'mobbyhill-dunes': { name: 'MobbyHill Trail Dunes', max: 99999999, perSecond: 60000, fmt: 'flagsTime' },
+  'mobbyhill-fuel-dunes': { name: 'MobbyHill Fuel Dunes', max: 99999999, perSecond: 60000, fmt: 'flagsTime' },
+  'mobbyhill-climb-dunes': { name: 'MobbyHill Climb Dunes', max: 999999, perSecond: 200, fmt: 'meters' },
+  'mobbyhill-climbfuel-dunes': { name: 'MobbyHill Climb Fuel Dunes', max: 999999, perSecond: 200, fmt: 'meters' }
 };

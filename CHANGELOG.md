@@ -1,5 +1,7 @@
 Score Hub changelog
 
+2026-11-17, v2026.11.17. Registered twelve more MobbyHill leaderboards, one for each game in the Forest, Canyon and Dunes landscapes. Added six new MobbyHill store parts to its token wallet.
+
 2026-11-15, v2026.11.15b. Added token wallets. A game can give each player a set number of tokens every calendar week, counted by the server clock, and spend them on items through the server. MobbyHill is the first game with a wallet: 1000 tokens a week, holding up to 3000.
 
 2026-11-15, v2026.11.15. Registered three more MobbyHill modes: Fuel, Climb and Climb Fuel. The climb modes post height in tenths of a meter and the hub shows them in meters.
