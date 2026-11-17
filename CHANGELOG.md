@@ -1,5 +1,7 @@
 Score Hub changelog
 
+2026-11-17, v2026.11.17d. Added MobbyHill vehicle unlocks to its token wallet: side by side 1500, SUV 1500, pickup 2500.
+
 2026-11-17, v2026.11.17c. Registered eight MobbyHill Off road recovery leaderboards, shown as jobs cleared and a clock time, and added the heavy rope and fast winch to its token wallet.
 
 2026-11-17, v2026.11.17b. Registered eight MobbyHill Search and rescue leaderboards, with and without fuel on each of the four landscapes. The hub shows them as hikers rescued and a clock time.
