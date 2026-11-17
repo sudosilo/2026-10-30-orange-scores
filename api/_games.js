@@ -30,5 +30,13 @@ module.exports = {
   'mobbyhill-rescue-canyon': { name: 'MobbyHill Rescue Canyon', max: 99999999, perSecond: 60000, fmt: 'rescueTime' },
   'mobbyhill-rescuefuel-canyon': { name: 'MobbyHill Rescue Fuel Canyon', max: 99999999, perSecond: 60000, fmt: 'rescueTime' },
   'mobbyhill-rescue-dunes': { name: 'MobbyHill Rescue Dunes', max: 99999999, perSecond: 60000, fmt: 'rescueTime' },
-  'mobbyhill-rescuefuel-dunes': { name: 'MobbyHill Rescue Fuel Dunes', max: 99999999, perSecond: 60000, fmt: 'rescueTime' }
+  'mobbyhill-rescuefuel-dunes': { name: 'MobbyHill Rescue Fuel Dunes', max: 99999999, perSecond: 60000, fmt: 'rescueTime' },
+  'mobbyhill-recovery': { name: 'MobbyHill Recovery', max: 99999999, perSecond: 60000, fmt: 'jobsTime' },
+  'mobbyhill-recoveryfuel': { name: 'MobbyHill Recovery Fuel', max: 99999999, perSecond: 60000, fmt: 'jobsTime' },
+  'mobbyhill-recovery-forest': { name: 'MobbyHill Recovery Forest', max: 99999999, perSecond: 60000, fmt: 'jobsTime' },
+  'mobbyhill-recoveryfuel-forest': { name: 'MobbyHill Recovery Fuel Forest', max: 99999999, perSecond: 60000, fmt: 'jobsTime' },
+  'mobbyhill-recovery-canyon': { name: 'MobbyHill Recovery Canyon', max: 99999999, perSecond: 60000, fmt: 'jobsTime' },
+  'mobbyhill-recoveryfuel-canyon': { name: 'MobbyHill Recovery Fuel Canyon', max: 99999999, perSecond: 60000, fmt: 'jobsTime' },
+  'mobbyhill-recovery-dunes': { name: 'MobbyHill Recovery Dunes', max: 99999999, perSecond: 60000, fmt: 'jobsTime' },
+  'mobbyhill-recoveryfuel-dunes': { name: 'MobbyHill Recovery Fuel Dunes', max: 99999999, perSecond: 60000, fmt: 'jobsTime' }
 };

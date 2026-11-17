@@ -6,6 +6,6 @@ Games post a score with a three letter tag and an optional link through one smal
 
 Live at 2026-10-30-orange-scores.vercel.app
 
-Latest change. 2026-11-17, v2026.11.17b. Registered MobbyHill's Search and rescue leaderboards.
+Latest change. 2026-11-17, v2026.11.17c. Registered MobbyHill's Off road recovery leaderboards and its recovery gear.
 
 Full history is in CHANGELOG.md.
