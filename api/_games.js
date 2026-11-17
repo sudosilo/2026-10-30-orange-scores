@@ -22,5 +22,13 @@ module.exports = {
   'mobbyhill-dunes': { name: 'MobbyHill Trail Dunes', max: 99999999, perSecond: 60000, fmt: 'flagsTime' },
   'mobbyhill-fuel-dunes': { name: 'MobbyHill Fuel Dunes', max: 99999999, perSecond: 60000, fmt: 'flagsTime' },
   'mobbyhill-climb-dunes': { name: 'MobbyHill Climb Dunes', max: 999999, perSecond: 200, fmt: 'meters' },
-  'mobbyhill-climbfuel-dunes': { name: 'MobbyHill Climb Fuel Dunes', max: 999999, perSecond: 200, fmt: 'meters' }
+  'mobbyhill-climbfuel-dunes': { name: 'MobbyHill Climb Fuel Dunes', max: 999999, perSecond: 200, fmt: 'meters' },
+  'mobbyhill-rescue': { name: 'MobbyHill Rescue', max: 99999999, perSecond: 60000, fmt: 'rescueTime' },
+  'mobbyhill-rescuefuel': { name: 'MobbyHill Rescue Fuel', max: 99999999, perSecond: 60000, fmt: 'rescueTime' },
+  'mobbyhill-rescue-forest': { name: 'MobbyHill Rescue Forest', max: 99999999, perSecond: 60000, fmt: 'rescueTime' },
+  'mobbyhill-rescuefuel-forest': { name: 'MobbyHill Rescue Fuel Forest', max: 99999999, perSecond: 60000, fmt: 'rescueTime' },
+  'mobbyhill-rescue-canyon': { name: 'MobbyHill Rescue Canyon', max: 99999999, perSecond: 60000, fmt: 'rescueTime' },
+  'mobbyhill-rescuefuel-canyon': { name: 'MobbyHill Rescue Fuel Canyon', max: 99999999, perSecond: 60000, fmt: 'rescueTime' },
+  'mobbyhill-rescue-dunes': { name: 'MobbyHill Rescue Dunes', max: 99999999, perSecond: 60000, fmt: 'rescueTime' },
+  'mobbyhill-rescuefuel-dunes': { name: 'MobbyHill Rescue Fuel Dunes', max: 99999999, perSecond: 60000, fmt: 'rescueTime' }
 };
