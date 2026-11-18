@@ -6,6 +6,6 @@ Games post a score with a three letter tag and an optional link through one smal
 
 Live at 2026-10-30-orange-scores.vercel.app
 
-Latest change. 2026-11-17, v2026.11.17e. Added MobbyHill accounts on Supabase with Stripe token purchases and account owned unlocks.
+Latest change. 2026-11-17, v2026.11.17f. Registered Raineurysm Puzzle.
 
 Full history is in CHANGELOG.md.
