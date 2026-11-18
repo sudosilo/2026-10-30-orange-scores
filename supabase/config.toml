@@ -1,1 +1,36 @@
 project_id = "2026-10-30-orange-scores"
+
+[auth]
+enabled = true
+site_url = "https://mobbyhill.vercel.app"
+additional_redirect_urls = ["https://mobbyhill.vercel.app/**", "https://*.itch.zone/**", "https://*.hwcdn.net/**"]
+jwt_expiry = 3600
+enable_signup = true
+
+[auth.email]
+enable_signup = true
+double_confirm_changes = true
+enable_confirmations = false
+otp_length = 6
+otp_expiry = 3600
+max_frequency = "30s"
+
+[auth.email.smtp]
+enabled = true
+host = "smtp.purelymail.com"
+port = 587
+user = "env(MH_SMTP_USER)"
+pass = "env(MH_SMTP_PASS)"
+admin_email = "env(MH_SMTP_USER)"
+sender_name = "MobbyHill"
+
+[auth.email.template.magic_link]
+subject = "Your MobbyHill sign in code"
+content_path = "./supabase/templates/mh-code.html"
+
+[auth.email.template.confirmation]
+subject = "Your MobbyHill sign in code"
+content_path = "./supabase/templates/mh-code.html"
+
+[auth.rate_limit]
+email_sent = 60

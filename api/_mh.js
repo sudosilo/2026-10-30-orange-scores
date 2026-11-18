@@ -1,4 +1,4 @@
-// MobbyHill accounts on Supabase. Only this server holds the service role key.
+// MobbyHill wallets on Supabase, owned by Supabase Auth users. Only this server holds the service role key.
 const crypto = require('crypto');
 const L = require('./_lib.js');
 
@@ -20,20 +20,6 @@ async function rpc(fn, args) {
   try { j = t ? JSON.parse(t) : null; } catch (e) { j = null; }
   if (!r.ok) throw new Error('db_error');
   return j;
-}
-
-// Passwords are stored as scrypt hashes with a random salt.
-function hashPass(p) {
-  const salt = crypto.randomBytes(16);
-  const h = crypto.scryptSync(p, salt, 32, { N: 16384, r: 8, p: 1 });
-  return 's1$' + salt.toString('base64') + '$' + h.toString('base64');
-}
-function checkPass(p, stored) {
-  const parts = String(stored || '').split('$');
-  if (parts.length !== 3 || parts[0] !== 's1') return false;
-  const want = Buffer.from(parts[2], 'base64');
-  const got = crypto.scryptSync(p, Buffer.from(parts[1], 'base64'), want.length, { N: 16384, r: 8, p: 1 });
-  return want.length === got.length && crypto.timingSafeEqual(want, got);
 }
 
 // Sign in tokens: account id, expiry, and an HMAC the server alone can make.
@@ -64,4 +50,4 @@ async function under(key, limit, secs) {
   return r[0] <= limit;
 }
 
-module.exports = { rpc, hashPass, checkPass, sign, who, under, cycleNow, cycleEnd };
+module.exports = { rpc, sign, who, under, cycleNow, cycleEnd };

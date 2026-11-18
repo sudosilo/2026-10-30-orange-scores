@@ -2,6 +2,8 @@ Score Hub changelog
 
 2026-11-17, v2026.11.17f. Registered Raineurysm Puzzle on the score hub. A run adds up points for each solved level, for speed and for using few parts, and can be played across many sessions.
 
+2026-11-18, v2026.11.18. MobbyHill sign in now runs on Supabase Auth. Players sign in with their own email and a six digit code, or with any outside provider turned on in Supabase. Wallets, unlocks and payments belong to the Supabase Auth user. Removed the name and password accounts and the mh-account endpoint. New endpoint mh-auth.
+
 2026-11-17, v2026.11.17e. Added MobbyHill player accounts on Supabase. Players sign in with a name and password, get the weekly 1000 tokens on the account, can buy 1000 tokens for $1 through Stripe Checkout, and keep vehicle and part unlocks on the account. A signed Stripe webhook credits each paid checkout once. New endpoints: mh-account, mh-wallet, mh-buy, stripe-webhook, and the paid.html return page.
 
 2026-11-17, v2026.11.17d. Added MobbyHill vehicle unlocks to its token wallet: side by side 1500, SUV 1500, pickup 2500.
