@@ -42,5 +42,12 @@ module.exports = {
   'mobbyhill-recovery-canyon': { name: 'MobbyHill Recovery Canyon', max: 99999999, perSecond: 60000, fmt: 'jobsTime' },
   'mobbyhill-recoveryfuel-canyon': { name: 'MobbyHill Recovery Fuel Canyon', max: 99999999, perSecond: 60000, fmt: 'jobsTime' },
   'mobbyhill-recovery-dunes': { name: 'MobbyHill Recovery Dunes', max: 99999999, perSecond: 60000, fmt: 'jobsTime' },
-  'mobbyhill-recoveryfuel-dunes': { name: 'MobbyHill Recovery Fuel Dunes', max: 99999999, perSecond: 60000, fmt: 'jobsTime' }
+  'mobbyhill-recoveryfuel-dunes': { name: 'MobbyHill Recovery Fuel Dunes', max: 99999999, perSecond: 60000, fmt: 'jobsTime' },
+  'just-five-more-math': { name: 'Just Five More Math', max: 100000, perSecond: 3 },
+  'just-five-more-petals': { name: 'Just Five More Petals', max: 100000, perSecond: 3 },
+  'just-five-more-paint': { name: 'Just Five More Paint', max: 100000, perSecond: 3 },
+  'just-five-more-scratch': { name: 'Just Five More Scratch', max: 100000, perSecond: 3 },
+  'just-five-more-bubble': { name: 'Just Five More Bubble Wrap', max: 100000, perSecond: 3 },
+  'just-five-more-leaves': { name: 'Just Five More Leaves', max: 100000, perSecond: 3 },
+  'just-five-more-cable': { name: 'Just Five More Cables', max: 100000, perSecond: 3 }
 };

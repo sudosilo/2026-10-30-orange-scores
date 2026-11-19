@@ -29,3 +29,5 @@ Score Hub changelog
 2026-11-18, v2026.11.18b. Registered Tile Spinner on the score hub with three boards: Rush counts boards cleared before time runs out, Pipes counts total stars earned across challenge levels, and Vault scores how fast and in how few tries a code is cracked.
 
 2026-11-18, v2026.11.18c. Tile Spinner Vault scores now scale with vault difficulty, up to three times for Expert, so the board accepts scores up to 3000.
+
+2026-11-19, v2026.11.19. Registered Just Five More on the score hub with seven boards, one for each task: math, petals, paint, scratch tickets, bubble wrap, leaves and cables. A score is how many items the player did in one shift after being told to do five.
