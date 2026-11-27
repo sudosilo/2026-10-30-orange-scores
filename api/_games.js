@@ -50,5 +50,6 @@ module.exports = {
   'just-five-more-bubble': { name: 'Just Five More Bubble Wrap', max: 100000, perSecond: 3 },
   'just-five-more-leaves': { name: 'Just Five More Leaves', max: 100000, perSecond: 3 },
   'just-five-more-cable': { name: 'Just Five More Cables', max: 100000, perSecond: 3 },
-  'centipede-text': { name: 'Centipede Text Edition', max: 9999999, perSecond: 3000 }
+  'centipede-text': { name: 'Centipede Text Edition', max: 9999999, perSecond: 3000 },
+  'final-victor': { name: 'Who Is The Final Victor', max: 50000000, perSecond: 300 }
 };
