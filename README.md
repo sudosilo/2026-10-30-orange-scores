@@ -6,6 +6,6 @@ Games post a score with a three letter tag and an optional link through one smal
 
 Live at 2026-10-30-orange-scores.vercel.app
 
-Latest change. 2026-11-27, v2026.11.27. Registered Who Is The Final Victor on the score hub.
+Latest change. 2026-11-27, v2026.11.27b. Raised the Who Is The Final Victor score rate limit for combo scoring.
 
 Full history is in CHANGELOG.md.

@@ -1,5 +1,7 @@
 Score Hub changelog
 
+2026-11-27, v2026.11.27b. Raised the Who Is The Final Victor score rate limit for its new combo scoring.
+
 2026-11-27, v2026.11.27. Registered Who Is The Final Victor on the score hub. A run scores points for every smaller pixel eaten.
 
 2026-11-19, v2026.11.19r. Raineurysm Puzzle grew to twenty four levels, so its top believable run score went up to match.
