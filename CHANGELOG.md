@@ -41,3 +41,5 @@ Score Hub changelog
 2026-11-19, v2026.11.19. Registered Just Five More on the score hub with seven boards, one for each task: math, petals, paint, scratch tickets, bubble wrap, leaves and cables. A score is how many items the player did in one shift after being told to do five.
 
 2026-11-28, v2026.11.28. Added update manifests. Every shipped copy of a game can ask the new manifest endpoint for the newest version and the code modules to load, from any server or a file on disk. MobbyHill is the first game with a manifest, at version 1.0.0.
+
+2026-11-28, v2026.11.28b. The MobbyHill manifest now lists its two code modules, data and game, with a fingerprint for each so a changed or broken file is never run.
