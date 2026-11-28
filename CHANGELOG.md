@@ -39,3 +39,5 @@ Score Hub changelog
 2026-11-18, v2026.11.18c. Tile Spinner Vault scores now scale with vault difficulty, up to three times for Expert, so the board accepts scores up to 3000.
 
 2026-11-19, v2026.11.19. Registered Just Five More on the score hub with seven boards, one for each task: math, petals, paint, scratch tickets, bubble wrap, leaves and cables. A score is how many items the player did in one shift after being told to do five.
+
+2026-11-28, v2026.11.28. Added update manifests. Every shipped copy of a game can ask the new manifest endpoint for the newest version and the code modules to load, from any server or a file on disk. MobbyHill is the first game with a manifest, at version 1.0.0.
